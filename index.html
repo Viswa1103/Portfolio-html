@@ -21,6 +21,10 @@
         <nav class="nav container">
 
             <a href="index.html" class="nav__logo">Viswa</a>
+            <input type="checkbox" id="nav-toggler" class="nav__checkbox">
+            <label for="nav-toggler" class="nav__toggle">
+                <i class="fa-solid fa-bars"></i>
+            </label>
             <ul class="nav__list">
                 <li class="nav__item">
                     <a href="#home" class="nav__link active-link">Home</a>
@@ -29,18 +33,20 @@
                     <a href="#about" class="nav__link">About</a>
                 </li>
                 <li class="nav__item">
-                    <a href="#qualfication" class="nav__link">Experience</a>
+                    <a href="#qualification" class="nav__link">Experience</a>
                 </li>
                 <li class="nav__item">
-                    <a href="#service" class="nav__link">Services</a>
+                    <a href="#services" class="nav__link">Services</a>
                 </li>
                 <li class="nav__item">
-                    <a href="#work" class="nav__link">Portfolio</a>
+                    <a href="#works" class="nav__link">Portfolio</a>
                 </li>
                 <li class="nav__item">
                     <a href="#contact" class="nav__link">Contact</a>
                 </li>
             </ul>
+
+
         </nav>
     </header>
 
@@ -326,9 +332,76 @@
 
         </section>
 
+        <section class="contact section" id="contact">
+            <h2 class="section__title title-center" data-title="Get in Touch">Contact me</h2>
 
+            <div class="contact__container container grid">
+                <div class="contact__details">
+                    <div class="contact__item">
+                        <i class="fa-solid fa-phone contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Call me</h3>
+                            <span class="contact__data">790438325</span>
+                        </div>
+                    </div>
+                    <div class="contact__item">
+                        <i class="fa-solid fa-envelope contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__data">viswa.vl1103@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contact__item">
+                        <i class="fa-solid fa-location-dot contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contact__data">No:69,2nd Cross Street,Sundaramoorthy
+                                nagar,Saram,Puducherry,605013</span>
+                        </div>
+                    </div>
+                </div>
 
+                <form action="" class="contact__form">
+                    <div class="form__group">
+                        <div class="form__input">
+                            <input type="text" placeholder="Name" class="input__control">
+                        </div>
+                        <div class="form__input">
+                            <input type="email" placeholder="Email" class="input__control">
+                        </div>
+                    </div>
+
+                    <div class="form__input">
+                        <input type="text" placeholder="Subject" class="input__control">
+                    </div>
+                    <div class="form__input">
+                        <textarea name="" id="" placeholder="Mesaage" cols="30" rows="10"
+                            class="input__control textarea"></textarea>
+                    </div>
+                    <button class="btn contact__btn">Send Message</button>
+                </form>
+            </div>
+
+        </section>
     </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="foooter__copyright">
+                &copy; 2024 Viswa Portfolio</p>
+            <div class="footer__social-links">
+                <a href="" class="footer__social-link">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="" class="footer__social-link">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="" class="footer__social-link">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
 
 
 </body>
