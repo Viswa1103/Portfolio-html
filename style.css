@@ -564,6 +564,7 @@ img {
 
 .work__img {
     vertical-align: middle;
+
 }
 
 
@@ -869,4 +870,10 @@ img {
     .resume__date-title {
         row-gap: .25rem;
     }
+}
+
+#msg {
+    color: var(--first-color);
+    display: block;
+
 }
